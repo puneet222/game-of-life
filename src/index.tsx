@@ -165,6 +165,7 @@ import _cross_2 from '../life/oscillator/cross-2.json';
 import _cross from '../life/oscillator/cross.json';
 import _crown from '../life/oscillator/crown.json';
 import _david_hilbert from '../life/oscillator/david-hilbert.json';
+import _deepika from '../life/oscillator/deepika.json';
 import _dinner_table from '../life/oscillator/dinner-table.json';
 import _double_caterer from '../life/oscillator/double-caterer.json';
 import _double_ewe from '../life/oscillator/double-ewe.json';
@@ -805,6 +806,7 @@ render((
       <nav><Link href='/cross'>{_cross.title}</Link></nav>
       <nav><Link href='/crown'>{_crown.title}</Link></nav>
       <nav><Link href='/david-hilbert'>{_david_hilbert.title}</Link></nav>
+      <nav><Link href='/deepika'>{_deepika.title}</Link></nav>
       <nav><Link href='/dinner-table'>{_dinner_table.title}</Link></nav>
       <nav><Link href='/double-caterer'>{_double_caterer.title}</Link></nav>
       <nav><Link href='/double-ewe'>{_double_ewe.title}</Link></nav>
@@ -1447,6 +1449,7 @@ render((
     <Pattern path='/cross' lifeData={_cross} />
     <Pattern path='/crown' lifeData={_crown} />
     <Pattern path='/david-hilbert' lifeData={_david_hilbert} />
+    <Pattern path='/deepika' lifeData={_deepika} />
     <Pattern path='/dinner-table' lifeData={_dinner_table} />
     <Pattern path='/double-caterer' lifeData={_double_caterer} />
     <Pattern path='/double-ewe' lifeData={_double_ewe} />
